@@ -18,6 +18,36 @@ body {
     margin: auto;
 }
 
+header {
+    padding: 0 .2rem;
+    border-bottom: 1px solid gray !important;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    color: black;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    padding: 1.2rem;
+}
+
+.logo {
+    width: 5%;
+    margin-right: .5rem;
+}
+
+.privacy {
+    color: #5f6368;
+    opacity: 1;
+    font-family: "Product Sans",Arial,sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+}
+
 textarea {
     font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif
 }

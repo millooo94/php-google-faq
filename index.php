@@ -32,12 +32,27 @@ $arrPolicies = [
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
+        <div class="logo-container">
+            <img class="logo" src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="">
+            <span class="privacy">Privacy e termini</span>
+        </div>
+        <div>
+            <ul class="menu-list">
+                <li class="ut53P"><a class="MyGDhe" href="#">Introduzione</a></li>
+                <li class="ut53P"><a class="MyGDhe" href="#">Norme sulla privacy</a></li>
+                <li class="ut53P"><a class="MyGDhe" href="#">Termini di servizio</a></li>
+                <li class="ut53P"><a class="MyGDhe" href="#">Tecnologie</a></li>
+                <li class="ut53P alvOm"><a class="MyGDhe YnafU"  href="#">Domande frequenti</a></li>
+            </ul>
+        </div>
+    </header>
     <div class="container">
         
     <?php
     foreach ($arrPolicies as $key => $value) {
         foreach ($arrPolicies[$key] as $key => $value) {
-            echo "<div>{$value}</div>";
+            echo $value;
         }
     }
     ?>
